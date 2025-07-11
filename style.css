@@ -1,0 +1,414 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(27, 22, 22);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: bisque;
+}
+
+.main_container {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    height: 60px;
+    width: 100%;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 7px 9px -5px rgba(0, 0, 0, 0.9);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    height: auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.nav_inner {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_outer {
+    margin-left: 7px;
+}
+
+.logo {
+    font-family: monospace;
+    font-size: 25px;
+    margin-top: 11px;
+}
+
+.nav_containt_outer {
+    margin-right: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav_btn1 {
+    height: 35px;
+    width: 130px;
+    font-size: 16px;
+    background-color: rgb(27, 22, 22);
+    color: bisque;
+    border-radius: 5px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    border: none;
+    margin: 6px;
+}
+
+@media (max-width : 420px) {
+    #nav_btn1 {
+        display: none;
+    }
+}
+
+#nav_icon1 {
+    height: 35px;
+    width: 40px;
+    margin: 6px;
+}
+
+#nav_risponsive_btn {
+    height: 30px;
+    width: 35px;
+    margin: 2px;
+    margin-top: 5px;
+}
+
+.home_first_outer {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 5px;
+    margin-top: 50px;
+    padding: 15px;
+}
+
+#main_heading {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main_pera {
+    font-size: 25px;
+}
+
+.home_password_generator_outer {
+    height: auto;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 15px;
+}
+
+.home_password_generator_inner {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 7px 19px -2px rgba(0, 0, 0, 0.9);
+}
+
+#main_heading_in_pass_generator {
+    font-size: 35px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.home_cards_main_outer {
+    height: auto;
+    width: 95%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#home_cards_main_heading {
+    text-align: center;
+    font-size: 35px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.cards_outer {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cards_inner {
+    height: auto;
+    width: 450px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+@media (max-width:800px) {
+    .cards_outer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards_inner {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+
+
+}
+
+@media (max-width:550px) {
+    .cards_outer {
+        padding: 5px;
+    }
+
+    .cards_inner {
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+    }
+
+
+
+}
+
+.cards_title {
+    margin: 10px;
+}
+
+.cards_pera {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.cards_list {
+    margin: 5px;
+    font-size: 20px;
+    list-style: inside;
+}
+
+#cards_img {
+    width: 90%;
+    height: 250px;
+}
+
+.home_last_outer {
+    height: auto;
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.cards_outer_form {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cards_inner_contact {
+    height: auto;
+    width: 450px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+@media (max-width:800px) {
+    .cards_outer_form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards_inner_contact {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+
+
+}
+
+@media (max-width:550px) {
+    .cards_outer_form {
+        padding: 5px;
+    }
+
+    .cards_inner_contact {
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+    }
+
+}
+
+.account_names1 {
+    height: 25px;
+    width: 145px;
+    background-color: bisque;
+    color: rgb(27, 22, 22);
+    border: 1px solid rgb(27, 22, 22);
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+
+.account_names2 {
+    height: 25px;
+    width: 145px;
+    background-color: bisque;
+    color: rgb(27, 22, 22);
+    border: 1px solid rgb(27, 22, 22);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+
+.account_names3 {
+    height: 25px;
+    width: 300px;
+    background-color: bisque;
+    color: rgb(27, 22, 22);
+    border: 1px solid rgb(27, 22, 22);
+    border-radius: 5px;
+    margin: 10px;
+    padding-left: 5px;
+}
+
+.account_names5 {
+    height: 30px;
+    width: 304px;
+    font-size: 16px;
+    background-color: rgb(27, 22, 22);
+    color: bisque;
+    border-radius: 5px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    border: none;
+    margin: 10px;
+}
+
+@media (max-width:355px) {
+    .account_names5 {
+        width: 95%;
+        margin: 10px;
+    }
+
+    .account_names1 {
+        width: 95%;
+        margin: 10px;
+    }
+
+    .account_names2 {
+        width: 95%;
+        margin: 10px;
+    }
+
+    .account_names3 {
+        width: 95%;
+        margin: 10px;
+    }
+}
+
+
+
+
+.upper_of_footer {
+    height: auto;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.upper_main_h1 {
+    font-size: 25px;
+}
+
+.upper_btns {
+    height: 28px;
+    width: 140px;
+    font-size: 16px;
+    background-color: rgb(27, 22, 22);
+    color: bisque;
+    border-radius: 5px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    border: none;
+    margin: 5px;
+}
+
+
+.upper_pera {
+    font-size: 10px;
+}
+
+footer {
+    height: auto;
+    max-width: 900px;
+    background-color: rgb(27, 24, 24);
+    margin-left: auto;
+    margin-right: auto;
+    color: bisque;
+}
+
+
+
+.icons_line_outer {
+    height: 49px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.foot_icon {
+    height: 40px;
+    width: 48px;
+    margin: 0px;
+}
+
+
+.foot_outer {
+    height: auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
